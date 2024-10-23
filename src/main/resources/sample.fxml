@@ -42,7 +42,7 @@
             </Label>
             <TextField fx:id="usuario" layoutX="103.0" layoutY="168.0" promptText="Usuário" />
             <PasswordField fx:id="senha" layoutX="103.0" layoutY="201.0" promptText="Senha" />
-            <Button fx:id="button" layoutX="136.0" layoutY="276.0" mnemonicParsing="false" style="-fx-background-color: FEEC37;" text="Entrar" textFill="#003b09">
+            <Button fx:id="button" layoutX="136.0" layoutY="276.0" mnemonicParsing="false" onAction="#userLogin" style="-fx-background-color: FEEC37;" text="Entrar" textFill="#003b09">
                <font>
                   <Font name="System Bold" size="14.0" />
                </font>
