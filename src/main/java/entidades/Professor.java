@@ -1,4 +1,6 @@
-import java.math.BigDecimal; 
+package entidades;
+
+import java.math.BigDecimal;
 import java.util.List;
 
 public class Professor {

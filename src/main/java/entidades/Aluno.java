@@ -1,4 +1,6 @@
-import java.time.LocalDate; 
+package entidades;
+
+import java.time.LocalDate;
 
 public class Aluno {
     private Long id;
