@@ -1,5 +1,6 @@
 package loginform.loginform;
 
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -23,10 +24,10 @@ public class Main extends Application {
     }
 
     //Aqui é para trocar a pagina tem que configurar assim que terminar cena
-  //  public void chageScene(String fxml) throws IOException {
-    //    FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource(fxml));
-      //  stg.getScene().setRoot();
-    //}
+    public void changeScene(String fxml) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource(fxml));
+        stg.getScene().setRoot(fxmlLoader.load());
+    }
 
     public static void main(String[] args) {
         launch();

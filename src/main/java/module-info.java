@@ -4,5 +4,7 @@ module loginform.loginform {
 
 
     opens loginform.loginform to javafx.fxml;
+    opens sample to javafx.fxml;
     exports loginform.loginform;
+    exports sample;
 }
